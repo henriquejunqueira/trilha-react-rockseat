@@ -1,0 +1,12 @@
+{
+  "name": "trilha-react-rockseat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/henriquejunqueira/trilha-react-rockseat.git",
+  "author": "Henrique Junqueira <41648535+henriquejunqueira@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
