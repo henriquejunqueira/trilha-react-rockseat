@@ -39,3 +39,15 @@
 - `devServer: {`
   `static: path.resolve(__dirname, 'public'),`
   `},`
+
+- Instalação do Cross Env em modo de desenvolvimento para definir variáveis de ambiente independente do SO: `$ yarn add cross-env -D`
+
+- Criado script no `package.json` para rodar o webpack de acordo com o ambiente:
+  `"scripts": {`
+  `"dev": "webpack serve",`
+  `"build": "cross-env NODE_ENV=production webpack"`
+  `},`
+
+- Executando o script em ambiente de desenvolvimento: `$ yarn dev`
+
+- Executando o script em ambiente de produção: `$ yarn build`
