@@ -22,4 +22,20 @@
 
 - Executando o webpack: `$ yarn webpack`
 
-- Instalação html webpack plugin: `$ yarn add html-webpack-plugin -D`
+- Instalação do Html Webpack Plugin em modo de desenvolvimento: `$ yarn add html-webpack-plugin -D`
+
+- Instalação do Webpack Dev Server: `$ yarn add webpack-dev-server -D`
+
+- Executando o Webpack Dev Server pra não precisar rodar `yarn webpack` a cada alteração: `$ yarn webpack serve`
+
+- #### Observação sobre o Webpack Dev Server:
+
+- Caso dê erro rodando `$ yarn webpack serve` utilizando a configuração do vídeo, o erro é causado pela utilização da propriedade `contentBase` dentro da configuração do `devServer`, que foi descontinuada nas versões mais recentes do `webpack-dev-server`.
+- Na versão mais recente do `webpack-dev-server` (v4+), a opção `contentBase` foi substituída pela opção `static`.
+- A propriedade `static` é agora usada para configurar os arquivos estáticos que o servidor deve servir.
+- Para corrigir o erro, substitua a configuração `contentBase` por `static` no arquivo webpack.config.js, como mostrado abaixo.
+- Sendo colocado após o fechamento do resolve e antes da abertura do plugins:
+
+- `devServer: {`
+  `static: path.resolve(__dirname, 'public'),`
+  `},`
