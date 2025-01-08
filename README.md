@@ -51,3 +51,5 @@
 - Executando o script em ambiente de desenvolvimento: `$ yarn dev`
 
 - Executando o script em ambiente de produção: `$ yarn build`
+
+- Instalando em modo de desenvolvimento os pacotes para carregar arquivos css: `$ yarn add style-loader css-loader -D`
