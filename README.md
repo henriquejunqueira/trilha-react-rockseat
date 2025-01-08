@@ -55,3 +55,5 @@
 - Instalando em modo de desenvolvimento os pacotes para carregar arquivos css: `$ yarn add style-loader css-loader -D`
 
 - Instalando em modo de desenvolvimento o Node Sass e o Sass Loader para trabalhar com o pré-processador Sass de css: `$ yarn add node-sass sass-loader -D`
+
+- Instalação em modo de desenvolvimento do React Refresh Webpack Plugin e do React Refresh: `$ yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh`
