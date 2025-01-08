@@ -53,3 +53,5 @@
 - Executando o script em ambiente de produção: `$ yarn build`
 
 - Instalando em modo de desenvolvimento os pacotes para carregar arquivos css: `$ yarn add style-loader css-loader -D`
+
+- Instalando em modo de desenvolvimento o Node Sass e o Sass Loader para trabalhar com o pré-processador Sass de css: `$ yarn add node-sass sass-loader -D`
