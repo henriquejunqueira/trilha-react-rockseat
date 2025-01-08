@@ -57,3 +57,15 @@
 - Instalando em modo de desenvolvimento o Node Sass e o Sass Loader para trabalhar com o pré-processador Sass de css: `$ yarn add node-sass sass-loader -D`
 
 - Instalação em modo de desenvolvimento do React Refresh Webpack Plugin e do React Refresh: `$ yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh`
+
+- Instalação em modo de desenvolvimento do TypeScript: `$ yarn add typescript -D`
+
+- Iniciando o typescript criando o arquivo de configuração `tsconfig.json` do typescript: `$ yarn tsc --init`
+
+- Adicionado na configuração do `tsconfig.json`:
+
+- `"lib": ["DOM", "DOM.Iterable", "ESNext"],`
+
+- Instalação em modo de desenvolvimento do preset typescript pra que o babel consiga interpretar o typescript: `$ yarn add @babel/preset-typescript -D`
+
+- Instalação do React e do React Dom do pacote @types pra solucionar alguns problemas com typescript: `$ yarn add @types/react-dom -D`
