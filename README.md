@@ -21,3 +21,5 @@
 - Instalação webpack em modo de desenvolvimento: `$ yarn add webpack webpack-cli -D`
 
 - Executando o webpack: `$ yarn webpack`
+
+- Instalação html webpack plugin: `$ yarn add html-webpack-plugin -D`
