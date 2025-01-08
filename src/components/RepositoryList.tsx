@@ -8,8 +8,14 @@ import '../styles/repositories.scss';
 //   link: 'https://github.com/unform/unform',
 // };
 
+interface Repository {
+  name: string;
+  description: string;
+  html_url: string;
+}
+
 export function RepositoryList() {
-  const [repositories, setRepositories] = useState([]);
+  const [repositories, setRepositories] = useState<Repository[]>([]);
 
   // a função dentro do useEffect vai ser executada sempre que 'repositories' tiver o valor alterado
   // ! se a dependência do useEffect [] estiver vazia, a função é executada apenas uma vez
